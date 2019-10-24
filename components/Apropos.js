@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import { Button } from 'react-native-elements';
 
-export default class APropos extends Component {
+export default class Apropos extends Component {
 
     _return() {
         this.props.navigation.navigate("Accueil");

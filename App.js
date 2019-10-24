@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { StyleSheet, View } from 'react-native';
+import { View } from 'react-native';
 import { createAppContainer } from 'react-navigation';
 import Accueil from './components/Accueil';
 import QuizzList from './components/QuizzList';
