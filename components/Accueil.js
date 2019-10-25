@@ -6,7 +6,7 @@ import { Button } from 'react-native-elements';
 export default class Accueil extends Component {
 
     _goToDetails() {
-        this.props.navigation.navigate("APropos");
+        this.props.navigation.navigate("Apropos");
     }
     _startQuizz() {
         this.props.navigation.navigate("Quizz");
