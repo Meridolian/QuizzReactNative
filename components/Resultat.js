@@ -47,11 +47,12 @@ class Resultat extends React.Component {
 
     render() {
         
+        const { counter } = this.props.navigation.state.params.data
 
         return(
             <View style={style.vue}>
                 <Text style={style.textScore}>VOTRE SCORE</Text>
-                <Text style={style.score}>{this._getTextScore()}/10</Text>
+                <Text style={style.score}>{counter}/5</Text>
                 <TextInput style={style.textScore}placeholder='Nom' onChangeText={(text) => this._setTextInput(text)} ref={input => { this.textInput = input }}/>
                 <Button title='CONTINUER VERS LEADERBOARD'></Button>
             </View>

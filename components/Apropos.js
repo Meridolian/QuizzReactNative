@@ -17,7 +17,7 @@ export default class Apropos extends Component {
                 <Text style={styles.text}>Choisissez un thème et tentez de répondre à un maximum de question pour marquer le plus de point et finir à la tête du classement. </Text>
 
                 <View style={styles.button}>
-                    <Button onOress={() => this._return()} title='Retour' type='clear' />
+                    <Button onPress={() => this._return()} title='Retour' type='clear' />
                 </View>
             </View>
         )

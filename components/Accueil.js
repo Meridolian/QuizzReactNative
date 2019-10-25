@@ -20,7 +20,7 @@ export default class Accueil extends Component {
                     <Button onPress={() => this._startQuizz()} title='Commencer' />
                 </View>
                 <View style={styles.button}>
-                    <Button onOress={() => this._goToDetails()} title='A Propos' type='clear' />
+                    <Button onPress={() => this._goToDetails()} title='A Propos' type='clear' />
                 </View>
             </View>
         )
